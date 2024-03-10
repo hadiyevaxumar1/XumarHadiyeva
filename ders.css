@@ -1,0 +1,1211 @@
+@font-face{
+    font-family: 'Slab';
+    src: url(new/Roboto_Slab.zip);
+ }
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ main{
+    padding: 36px 35px;
+ }
+ 
+ .first-section{
+    margin-top: 45px;
+    width: 100%;
+ }
+ 
+ section ul {
+    display: flex;
+    padding: 0;
+    gap: 11px;
+ }
+ 
+ section ul li{
+    list-style: none;
+    font-size: 10px;
+ }
+ 
+ .section2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .section2 h1{
+    line-height: 37.51px;
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 8px;
+    font-family: 'Slab';
+ }
+ 
+ section p{
+  margin-top: 9px;
+  font-size: 10px;
+ } 
+ 
+  .sec2div{
+    display: flex;
+    justify-content: end;
+  }
+ 
+ .sec2div img{
+    width: 141.68px;
+    height: 175.1px;
+ }
+ 
+ .img1{
+    width: 52.19px;
+    height: 30.75px;
+ }
+ 
+  .section3 {
+    width: 100%;
+  }
+ 
+  .section3 div{
+    background-color: #1E4681;
+    border-radius: 2.33px;
+    width: 225.36px;
+    height: 93.19px;
+    /* margin-top: 39px; */
+    margin: 39px auto;
+  }
+ 
+  /* burda yuxardakinda margini deyisdim evvel sola yapisirdi indi her ekranda merkezdedir */
+ 
+  .section3 div .p1{
+    font-size: 11px;
+    line-height: 14.3px;
+    font-weight: 400;
+    font-family: 'Slab';
+    color: #FFFFFF;
+    width: 200px;
+    padding: 8px 0 0;
+   margin-left: 13px;
+  }
+ 
+  .section3 div .p2{
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 130px;
+   margin: 0 0 6px 87px;
+    text-align: end;
+  }
+ 
+  .siteHider{
+    margin-top: 75px;
+  }  
+ 
+  .section4{
+    margin-top: 8,38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 308.47px;
+    
+  }
+ 
+  .section4 div p{
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+  }
+ 
+  .section4  img{
+    width: 170px;
+    height: 160px;
+    margin-top: 20px;
+ }
+ 
+  .section5{
+    width: 100%;
+  }
+ 
+ .section5 img{
+    display: none;
+ }
+ 
+ .section5 ul{
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    margin-top:45px ;
+ }
+ 
+ .section5 ul li{
+    min-width: 87px;
+    width: 87px;
+    flex-shrink: 1;
+ }
+ 
+ .section5 ul li h3{
+    font-size: 12px;
+    line-height: 15.6px;
+    font-weight: 700;
+ }
+ 
+ .section5 ul li p{
+    font-size: 10px;
+    line-height: 15.6px;
+    font-weight: 400;
+    margin-top: 2px;
+ }
+ 
+ .format{
+    margin-top: 76px;
+    font-weight: 700;
+    line-height: 26.36px;
+    font-size: 26px;
+    font-family: 'Slab';
+ }
+ 
+ .section6{
+    width: 100%;
+    margin-top: 15.66px;
+ }
+ 
+ .section6 .text li h3{
+    font-weight: 700;
+    line-height: 15.6px;
+    font-size: 12px;
+    color: #1E4681;
+ }
+ 
+ .section6 .text li p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    width: 180px;
+ }
+ 
+  .section6 ul{
+    flex-wrap: wrap;
+   display: flex;
+    gap: 10px;
+  }
+ 
+  .sto{
+    margin-top: 73px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Slab';
+    line-height: 26.36px;
+  }
+ 
+  .kto {
+    margin-top: 9.66px;
+    width: 299px;
+  }
+ 
+  .kto li{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  
+  .proqram{
+    margin-top: 85px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.36px;
+    font-family: 'Slab';
+  }
+ 
+   .section7{
+    margin-top: 35.66px;
+    width: 100%;
+    display: grid;
+   grid-template-columns: auto;
+   justify-content: center;
+   }
+ 
+  .div{
+    width: 186px;
+    border-radius: 14px;
+    box-shadow: 1px 1px 5px #ccc;
+    height: 152px;
+    margin-bottom: 24px;
+  }
+ 
+  .div h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.2px;
+    padding: 0 8px ;
+  }
+ 
+  .div img{
+    width: 185px;
+    height: 74.56px;
+  }
+ 
+  .div p{
+    padding: 0 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px; 
+  }
+ 
+  .section8{
+    width: 100%;
+    margin-top: 47px;
+    background-color: #EFEFEF;
+    height: 423px;
+    padding: 35px;
+  }
+ 
+  .section8 .kurs{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.36px;
+    font-family: 'Slab';
+    margin-bottom: 31px;
+    margin-left: 35px
+  }
+ 
+   .kart{
+    width: 308px;
+    height: 248px;
+    margin-top: 11px;
+    padding: 21px;
+    margin: auto;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #ccc;
+   }
+ 
+   .face{
+    display: flex;
+   gap: 35px;
+   } 
+ 
+   .ekaterina{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14.19px;
+    margin-top: 38px;
+   }
+ 
+   .kart p:first-child{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+   }
+ 
+   .kart img.girl{
+    margin-top: 20px;
+    width: 80px;
+    height: 84px;
+   }
+ 
+   .section9{
+    padding: 60px 34px;
+    background-color:#9DC9C8;
+    width: 100%;
+ 
+   }
+ 
+   .section9 h1{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26.36px;
+    font-family: 'Slab';
+    margin-bottom: 31px;
+    /* margin-left: 35px; */
+    width: 195px;
+   }
+ 
+   .section9 span{
+    font-size: 12px;
+   }
+ 
+   .section9 .rub{
+    font-size: 37px;
+    margin-top: 0;
+   }
+ 
+   .dlya{
+    display: flex;
+    gap: 31px;
+    margin-top: 35px;
+   }
+ 
+   .dlya div{
+    width: 138px;
+    line-height: 10px;
+    font-size: 10px;
+    font-weight: 400;
+   }
+ 
+   .footer{
+    width: 100%;
+    background-color: #000000;
+    height: 226px;
+    padding: 38px ;
+    position: static;
+    left: 0;
+    bottom: 0;
+   }
+ 
+    .sondiv1 .sonimg{
+       width: 53.6px;
+       height: 32px;
+    }
+  
+     .logo img{
+       width: 16px;
+       height: 16px;
+     }
+  
+     .sondiv2 div img{
+       width: 13px;
+       margin-right: 10px;
+       height: 13px;
+     }
+ 
+     .logo {
+       margin-top: 14px;
+     }
+ 
+     .sondiv2 {
+       margin-top: 47px;
+       color: white;
+       font-size: 12px;
+     }
+ 
+     .theend{
+       margin-top: 49px;
+       color: white;
+       font-size: 10px;
+       line-height: 10.14px;
+     }
+ 
+ 
+ 
+ 
+ 
+    @media  (min-width:992px) {
+ 
+       main{
+          padding: 22px 70px;
+       }
+       
+       .first-section{
+          margin-top: 45px;
+          width: 100%;
+       }
+       
+       .first-section ul {
+          display: flex;
+          padding: 0;
+          gap: 15px;
+       }
+       
+       .first-section ul li{
+          list-style: none;
+          font-size: 12px;
+       }
+       
+       .section2{
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto auto;
+       }
+       
+       .section2 h1{
+          line-height: 46.64pxpx;
+          font-size: 46px;
+          font-weight: 700;
+          margin-top: 30px;
+          font-family: 'Slab';
+       }
+       
+       .section2 div p{
+        margin-top: 9px;
+        font-size: 12px;
+       } 
+       
+       .section2 img{
+          /* margin-left: 150px; */
+          width: 181.68px;
+          height: 182.1px;
+       }
+ 
+       .sec2div img{
+          margin-top: 30px;
+       }
+       
+       .img1{
+          width: 52.19px;
+          height: 30.75px;
+       }
+       
+        .section3 {
+          width: 100%;
+        }
+       
+        .section3 div{
+          background-color: #1E4681;
+          border-radius: 2.9px;
+          width: 280px;
+          height: 116px;
+          margin: 39px auto;
+        }
+ 
+        .section3 div .p1{
+          font-size: 14px;
+          line-height: 18.3px;
+          font-weight: 400;
+          font-family: 'Slab';
+          color: #FFFFFF;
+          width: 280px;
+          height: 115px;
+          padding: 8px 0 0;
+         margin-left: 13px;
+        }
+       
+        .section3 div .p2{
+          font-size: 12px;
+          line-height: 15.6px;
+          font-weight: 400;
+          color: #FFFFFF;
+          width: 162px;
+         margin: 0 0 6px 87px;
+          text-align: end;
+        }
+       
+        .siteHider{
+          margin-top: 75px;
+          font-size: 32px;
+          line-height: 32.44px;
+        }  
+       
+        .section4{
+          margin-top: 22px;
+          display: grid;
+          grid-template-columns: auto auto;
+          width: 100%; 
+        }
+       
+        .section4 div p{
+          font-weight: 400;
+              font-size: 14px;
+              line-height: 21px;
+              width: 383px;
+        }
+       
+        .section4  img{
+          width: 181px;
+          height: 182px;
+          margin-top: 20px;
+       }
+       
+        .section5{
+          width: 100%;
+          display: flex;
+          gap: 33px;
+          flex-wrap: wrap;
+          margin-top: 52px;
+        }
+       
+       .section5 img{
+          display: block;
+          width: 134.37px;
+          height: 117.57px;
+       }
+       
+       .section5 ul{
+          display: flex;
+          gap: 33px;
+          flex-wrap: wrap;
+          margin-top:45px ;
+       }
+       
+       .section5 ul li{
+          min-width: 87px;
+          width: 87px;
+          flex-shrink: 1;
+       }
+       
+       .section5 ul li h3{
+          font-size: 15px;
+          line-height: 19.6px;
+          font-weight: 700;
+       }
+       
+       .section5 ul li p{
+          font-size: 11px;
+          line-height: 14.6px;
+          font-weight: 400;
+          margin-top: 2px;
+       }
+       
+       .format{
+          margin-top: 100px;
+          font-weight: 700;
+          line-height: 32.44px;
+          font-size: 26px;
+          font-family: 'Slab';
+       }
+       
+       .section6{
+          width: 100%;
+          margin-top: 51px;
+       }
+       
+       .section6 .text li h3{
+          font-weight: 700;
+          line-height: 19.6px;
+          font-size: 15px;
+          color: #1E4681;
+       }
+       
+       .section6 .text li p{
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 14.3px;
+          width: 153px;
+       }
+       
+        .section6 ul{
+          flex-wrap: wrap;
+         display: flex;
+          gap: 10px;
+        }
+       
+        .sto{
+          margin-top: 123px;
+          font-weight: 700;
+          font-size: 32px;
+          font-family: 'Slab';
+          line-height: 32.44px;
+        }
+       
+        .kto {
+          margin-top: 11px;
+          width: 383px;
+        }
+       
+        .kto li{
+          font-size: 14px;
+          line-height: 21px;
+          font-weight: 400;
+        }
+        
+        .proqram{
+          margin-top: 111px;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 32.44px;
+          font-family: 'Slab';
+        }
+       
+         .section7{
+          margin-top: 60px;
+          width: 100%;
+          display: grid;
+         grid-template-columns: auto auto auto;
+         justify-content: center;
+         gap: 20px;
+         }
+       
+        .div{
+          width: 231px;
+          border-radius: 14px;
+          box-shadow: 1px 1px 5px #ccc;
+          height: 190px;
+          margin-bottom: 24px;
+        }
+       
+        .div h3{
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 22.2px;
+          padding: 0 11px ;
+        }
+       
+        .div img{
+          width: 231px;
+          height: 92.56px;
+        }
+       
+        .div p{
+          padding: 0 11px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18.2px; 
+        }
+       
+        .section8{
+          width: 100%;
+          margin-top: 47px;
+          background-color: #EFEFEF;
+          height: 451px;
+          padding: 72px;
+        }
+       
+        .section8 .kurs{
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32.36px;
+          font-family: 'Slab';
+          margin-bottom: 31px;
+          margin-left: 71px;
+          margin-top: 20px;
+        }
+       
+         .kart{
+          width: 458px;
+          height: 261px;
+          margin-top: 11px;
+          padding: 21px;
+          margin: auto;
+          border-radius: 17px;
+          background-color: white;
+          box-shadow: 2px 2px 5px #ccc;
+         }
+       
+         .face{
+          display: flex;
+          gap: 45px;
+         } 
+       
+       .face .girl{
+          width: 110px;
+          height: 98px;
+       }
+ 
+         .ekaterina{
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 17.19px;
+          margin-top: 48px;
+         }
+       
+         .kart p:first-child{
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 18px;
+         }
+       
+         .kart img.girl{
+          margin-top: 20px;
+          width: 80px;
+          height: 84px;
+         }
+       
+         .section9{
+          padding: 100px 70px;
+          background-color:#9DC9C8;
+          width: 100%;
+          height: 451px;
+         }
+       
+         .section9 h1{
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32px;
+          font-family: 'Slab';
+          margin-bottom: 31px;
+          /* margin-left: 35px; */
+          width: 525px;
+         }
+       
+         .section9 span{
+          font-size: 14px;
+         }
+       
+         .section9 .rub{
+          font-size: 46px;
+          margin-top: 0;
+         }
+       
+         .dlya{
+          display: flex;
+          gap: 31px;
+          margin-top: 35px;
+         }
+       
+         .dlya div{
+          width: 170px;
+          line-height: 10px;
+          font-size: 10px;
+          font-weight: 400;
+         }
+       
+         .footer{
+          width: 100%;
+          background-color: #000000;
+          height: 226px;
+          padding: 38px ;
+          position: static;
+          left: 0;
+          bottom: 0;
+         }
+       
+          .sondiv1 .sonimg{
+             width: 66.6px;
+             height: 39px;
+          }
+        
+           .logo img{
+             width: 19px;
+             height: 19px;
+           }
+        
+           .sondiv2 div img{
+             width: 16px;
+             margin-right: 10px;
+             height: 16px;
+           }
+       
+           .logo {
+             margin-top: 14px;
+           }
+       
+           .sondiv2 {
+             margin-top: 7px;
+             color: white;
+             font-size: 12px;
+           }
+ 
+           .gridend{
+             display: grid;
+             grid-template-columns: auto auto;
+             justify-content: space-between;
+           }
+ 
+           .theend{
+             margin-top: 109px;
+             color: white;
+             font-size: 10px;
+             line-height: 10.14px;
+           }
+       
+    }
+ 
+ 
+ 
+ 
+ 
+    @media (min-width:1280px){
+ 
+     main{
+       padding: 22px 121px;
+    }
+    
+    .first-section{
+       margin-top: 66px;
+       width: 100%;
+    }
+    
+    .first-section ul {
+       display: flex;
+       padding: 0;
+       gap: 25px;
+    }
+    
+    .first-section ul li{
+       list-style: none;
+       font-size: 20px;
+    }
+    
+    .section2{
+       width: 100%;
+       display: grid;
+       grid-template-columns: auto auto;
+    }
+    
+    .section2 h1{
+       line-height: 81.64px;
+       font-size: 80px;
+       font-weight: 700;
+       margin-top: 30px;
+       font-family: 'Slab';
+       width: 628px;
+       height: 190px;
+    }
+    
+    .section2 div p{
+     margin-top: 13px;
+     font-size: 20px;
+    } 
+    
+    .section2 img{
+       width: 304.68px;
+       height: 356.1px;
+       margin-top: 30px;
+    }
+    
+    .img1{
+       width: 52.19px;
+       height: 30.75px;
+    }
+ 
+    .siteHider{
+     margin-top: 75px;
+     font-size: 55px;
+     line-height: 55.44px;
+   }  
+    
+     .section3 {
+       width: 100%;
+     }
+    
+     .section3 div{
+       background-color: #1E4681;
+       border-radius: 5px;
+       width: 483px;
+       height: 200px;
+       margin: 86px auto;
+     }
+ 
+     .section3 div .p1{
+       font-size: 25px;
+       line-height: 32.3px;
+       font-weight: 400;
+       font-family: 'Slab';
+       color: #FFFFFF;
+       width: 430px;
+       height: 113px;
+       padding: 8px 0 0;
+      margin-left: 13px;
+     }
+    
+     .section3 div .p2{
+       font-size: 20px;
+       line-height: 26px;
+       font-weight: 400;
+       color: #FFFFFF;
+       width: 280px;
+      margin: 0 0 6px 87px;
+       text-align: end;
+     }
+    
+     .section4{
+       margin-top: 22px;
+       display: grid;
+       grid-template-columns: auto auto;
+       width: 100%; 
+     }
+    
+     .section4 div p{
+       font-weight: 400;
+           font-size: 24px;
+           line-height: 36px;
+           width: 662px;
+     }
+    
+     .section4 div{
+       height: 374px;
+     }
+     
+     .section4  img{
+       width: 314px;
+       height: 215px;
+       margin-top: 20px;
+    }
+    
+     .section5{
+       width: 100%;
+       display: flex;
+       gap: 33px;
+       flex-wrap: wrap;
+       margin-top: 82px;
+     }
+    
+    .section5 img{
+       display: block;
+       width: 232.37px;
+       height: 203.57px;
+       margin-right: 30px;
+    }
+    
+    .section5 ul{
+       display: flex;
+       gap: 53px;
+       flex-wrap: wrap;
+       margin-top:45px ;
+    }
+    
+    .section5 ul li{
+       min-width: 150px;
+       width: 150px;
+       flex-shrink: 1;
+    }
+    
+    .section5 ul li h3{
+       font-size: 25px;
+       line-height: 32px;
+       font-weight: 700;
+    }
+    
+    .section5 ul li p{
+       font-size: 18px;
+       line-height: 23.6px;
+       font-weight: 400;
+       margin-top: 2px;
+    }
+    
+    .format{
+       margin-top: 100px;
+       font-weight: 700;
+       line-height: 55px;
+       font-size: 55px;
+       font-family: 'Slab';
+    }
+    
+    .section6{
+       width: 100%;
+       margin-top: 51px;
+    }
+    
+    .section6 .text li h3{
+       font-weight: 700;
+       line-height: 32px;
+       font-size: 25px;
+       color: #1E4681;
+       width: 150px;
+    }
+    
+    .section6 .text li p{
+       font-size: 18px;
+       font-weight: 400;
+       line-height: 23.3px;
+       width: 223px;
+    }
+    .section6 .text li {
+     width: 223px;
+    }
+    
+     .section6 ul{
+       flex-wrap: wrap;
+      display: flex;
+       gap: 122px;
+     }
+    
+     .sto{
+       margin-top: 123px;
+       font-weight: 700;
+       font-size: 55px;
+       font-family: 'Slab';
+       line-height: 55.44px;
+     }
+    
+     .kto {
+       margin-top: 47px;
+       width: 662px;
+     }
+    
+     .kto li{
+       font-size: 24px;
+       line-height: 36px;
+       font-weight: 400;
+     }
+     
+     .proqram{
+       margin-top: 111px;
+       font-weight: 700;
+       font-size: 55px;
+       line-height: 55.44px;
+       font-family: 'Slab';
+     }
+    
+      .section7{
+       margin-top: 60px;
+       width: 100%;
+       display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      gap: 35px;
+      }
+    
+     .div{
+       width: 399px;
+       border-radius: 30px;
+       box-shadow: 1px 1px 5px #ccc;
+       height: 328px;
+       margin-bottom: 34px;
+     }
+    
+     .div h3{
+       font-weight: 700;
+       font-size: 30px;
+       line-height: 39px;
+       padding: 0 11px ;
+     }
+    
+     .div img{
+       width: 399px;
+       height: 160px;
+     }
+    
+     .div p{
+       padding: 0 11px;
+       font-weight: 400;
+       font-size: 25px;
+       line-height: 32.2px; 
+     }
+    
+     .section8{
+       width: 100%;
+       margin-top: 47px;
+       background-color: #EFEFEF;
+       height: 780px;
+       padding: 121px;
+     }
+    
+     .section8 .kurs{
+       font-size: 55px;
+       font-weight: 700;
+       line-height: 55.36px;
+       font-family: 'Slab';
+       margin-bottom: 31px;
+       margin-left: 71px;
+       margin-top: 20px;
+     }
+    
+      .kart{
+       width: 791px;
+       height: 451px;
+       padding: 21px;
+       margin: 44px auto;
+       border-radius: 30px;
+       background-color: white;
+       box-shadow: 2px 2px 5px #ccc;
+      }
+    
+      .face{
+       display: flex;
+       gap: 45px;
+      } 
+    
+    .face .girl{
+       width: 190px;
+       height: 168px;
+       margin-top: 20px;
+    }
+ 
+      .ekaterina{
+       font-weight: 700;
+       font-size: 30px;
+       line-height: 30.19px;
+       margin-top: 48px;
+      }
+    
+      .kart p:first-child{
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 30px;
+      }
+    
+      .section9{
+       padding: 180px 121px;
+       background-color:#9DC9C8;
+       width: 100%;
+       height: 780;
+    
+      }
+    
+      .section9 h1{
+       font-size: 55px;
+       font-weight: 700;
+       line-height: 55px;
+       font-family: 'Slab';
+       margin-bottom: 31px;
+       /* margin-left: 35px; */
+       width: 980px;
+      }
+    
+      .section9 span{
+       font-size: 25px;
+      }
+    
+      .section9 .rub{
+       width: 481px;
+       font-size: 80px;
+       margin-top: 24px;
+      }
+    
+      .dlya{
+       display: flex;
+       gap: 31px;
+       margin-top: 150px;
+      }
+    
+      .dlya div{
+       width: 294px;
+      }
+ 
+      .dlya .pdlya{
+       line-height: 25px;
+       font-size: 25px;
+       font-weight: 400;
+      }
+ 
+      .dlya .pdlya2{
+       line-height: 18px;
+       font-size: 18px;
+       font-weight: 400;
+      }
+    
+      .footer{
+       width: 100%;
+       background-color: #000000;
+       height: 390px;
+       padding: 38px;
+       /* position: static;
+       left: 0;
+       bottom: 0; */
+      }
+    
+       .sondiv1 .sonimg{
+          width: 115px;
+          height: 68px;
+       }
+     
+        .logo img{
+          width: 33px;
+          height: 33px;
+        }
+     
+        .sondiv2 div img{
+          width: 27px;
+          margin-right: 15px;
+          height: 27px;
+        }
+    
+        .logo {
+          margin-top: 14px;
+        }
+    
+        .sondiv2 {
+          margin-top: 7px;
+          color: white;
+          font-size: 12px;
+        }
+ 
+        /* .gridend{
+          display: grid;
+          grid-template-columns: auto auto;
+          justify-content: space-between;
+        } */
+ 
+        .theend{
+          margin-top: 109px;
+          color: white;
+          font-size: 18px;
+          line-height: 18.14px;
+        }
+ 
+    }
+ 
+ 
+    
