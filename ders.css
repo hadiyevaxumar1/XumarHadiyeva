@@ -1,6 +1,10 @@
+
 @font-face{
     font-family: 'Slab';
     src: url(new/Roboto_Slab.zip);
+ }
+ body{
+overflow-x: hidden;
  }
  
  *{
@@ -275,10 +279,10 @@
     height: 248px;
     margin-top: 11px;
     padding: 21px;
-    margin: auto;
     border-radius: 14px;
     background-color: white;
     box-shadow: 2px 2px 5px #ccc;
+    margin-left: 35px;
    }
  
    .face{
@@ -666,7 +670,7 @@
           height: 261px;
           margin-top: 11px;
           padding: 21px;
-          margin: auto;
+          margin-left: 35px;         
           border-radius: 17px;
           background-color: white;
           box-shadow: 2px 2px 5px #ccc;
@@ -1076,7 +1080,7 @@
        width: 791px;
        height: 451px;
        padding: 21px;
-       margin: 44px auto;
+       margin-left: 35px;
        border-radius: 30px;
        background-color: white;
        box-shadow: 2px 2px 5px #ccc;
