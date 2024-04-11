@@ -120,7 +120,7 @@ function sortProductsByPrice(order) {
             }
         });
     }
-    console.log("Məhsullar qiymətə görə sıralandı, siyahıdan baxa bilersiz");
+    console.log("Məhsullar qiymətə görə sıralandı.1 ya da 2 ni secib daha sonra butun mehsullardan baxa bilersiz");
 }
 
 function showAllProductsForBuyer() {
